@@ -1,0 +1,12 @@
+E:\Proyectos\Atica\GestiónUsuarios.Core\bin\Debug\net8.0\GestiónUsuarios.Core.deps.json
+E:\Proyectos\Atica\GestiónUsuarios.Core\bin\Debug\net8.0\GestiónUsuarios.Core.dll
+E:\Proyectos\Atica\GestiónUsuarios.Core\bin\Debug\net8.0\GestiónUsuarios.Core.pdb
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.AssemblyInfoInputs.cache
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.AssemblyInfo.cs
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.csproj.CoreCompileInputs.cache
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.sourcelink.json
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.dll
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\refint\GestiónUsuarios.Core.dll
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\GestiónUsuarios.Core.pdb
+E:\Proyectos\Atica\GestiónUsuarios.Core\obj\Debug\net8.0\ref\GestiónUsuarios.Core.dll

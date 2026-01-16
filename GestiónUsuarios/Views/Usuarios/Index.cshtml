@@ -1,0 +1,113 @@
+﻿@model IEnumerable<GestiónUsuarios.Models.UsuarioViewModels>
+
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+    var rolActual = ViewBag.RolActual as string;
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Listado de Usuarios</h2>
+        <div>
+            <span class="badge @(rolActual == "Administrador" ? "bg-primary" : "bg-secondary") me-2">
+                Modo: @rolActual
+            </span>
+            <a asp-action="Create" class="btn btn-success">
+                <i class="bi bi-plus-circle"></i> Nuevo Usuario
+            </a>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No se encontraron usuarios para mostrar.</div>
+    }
+    else
+    {
+        <div class="table-responsive shadow-sm">
+            <table class="table table-hover table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="d-none">ID</th>
+                        <th>Nombre Completo</th>
+                        <th>Documento</th>
+                        <th>Email</th>
+                        <th>Rol</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="d-none">@item.Id</td>
+                            <td>@item.NombreCompleto</td>
+                            <td>@item.Documento</td>
+                            <td>@item.Email</td>
+                            <td>
+                                <span class="badge @(item.Rol == "Administrador" ? "bg-danger" : "bg-info text-dark")">
+                                    @item.Rol
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                @if (rolActual == "Administrador")
+                                {
+                                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-sm btn-warning">
+                                        Editar
+                                    </a>
+                                    <button type="button" class="btn btn-sm btn-danger" onclick="confirmarEliminar(@item.Id, '@item.Nombre')">
+                                        Eliminar
+                                    </button>
+                                }
+                                else
+                                {
+                                    <span class="text-muted small">Solo lectura</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Confirmar Eliminación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro que deseas eliminar al usuario <strong id="userNameModal"></strong>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <form asp-action="Eliminar" method="post" id="deleteForm">
+                    <input type="hidden" name="id" id="userIdModal" />
+                    <button type="submit" class="btn btn-danger">Eliminar Definitivamente</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmarEliminar(id, nombre) {
+            document.getElementById('userNameModal').innerText = nombre;
+            document.getElementById('userIdModal').value = id;
+            var myModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+            myModal.show();
+        }
+    </script>
+}

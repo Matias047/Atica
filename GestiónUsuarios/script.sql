@@ -1,0 +1,12 @@
+CREATE DATABASE GestionUsuariosDB;
+GO
+USE GestionUsuariosDB;
+GO
+CREATE TABLE Usuarios (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nombre NVARCHAR(50) NOT NULL,
+    apellido NVARCHAR(50) NOT NULL,
+    documento NVARCHAR(20) NOT NULL,
+    email NVARCHAR(100) NOT NULL,
+    rol NVARCHAR(20) NOT NULL
+);

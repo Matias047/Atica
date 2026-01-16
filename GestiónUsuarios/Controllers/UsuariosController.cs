@@ -1,0 +1,105 @@
+﻿using GestiónUsuarios.Core.Entities;
+using GestiónUsuarios.Core.Interfaces;
+using GestiónUsuarios.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace GestiónUsuarios.Controllers
+{
+    public class UsuariosController : Controller
+    {
+        private readonly IUsuarioService _usuarioService;
+
+        public UsuariosController(IUsuarioService usuarioService)
+        {
+            _usuarioService = usuarioService;
+        }
+
+        public async Task<IActionResult> Index(string rolSimulado = "Administrador")
+        {
+            var usuarios = await _usuarioService.ObtenerUsuariosSegunRolAsync(rolSimulado);
+
+            var modelo = usuarios.Select(u => new UsuarioViewModels
+            {
+                Id = u.Id,
+                Nombre = u.Nombre,
+                Apellido = u.Apellido,
+                Documento = u.Documento,
+                Email = u.Email,
+                Rol = u.Rol
+            });
+
+            ViewBag.RolActual = rolSimulado;
+            return View(modelo);
+        }
+
+        public IActionResult Create()
+        {
+            return View("Crear");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Crear(UsuarioViewModels model)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuario = new Usuario
+                {
+                    Nombre = model.Nombre,
+                    Apellido = model.Apellido,
+                    Documento = model.Documento,
+                    Email = model.Email,
+                    Rol = model.Rol
+                };
+
+                await _usuarioService.CrearUsuarioAsync(usuario);
+                TempData["Mensaje"] = "Usuario guardado correctamente.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(model);
+        }
+
+        public async Task<IActionResult> Editar(int id)
+        {
+            var usuario = await _usuarioService.ObtenerPorIdAsync(id);
+            if (usuario == null) return NotFound();
+
+            return View(usuario);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(int id, UsuarioViewModels model)
+        {
+            if (id != model.Id) return BadRequest();
+
+            if (ModelState.IsValid)
+            {
+                var usuario = new Usuario
+                {
+                    Id = model.Id,
+                    Nombre = model.Nombre,
+                    Apellido = model.Apellido,
+                    Documento = model.Documento,
+                    Email = model.Email,
+                    Rol = model.Rol
+                };
+
+                await _usuarioService.EditarUsuarioAsync(usuario);
+                TempData["Mensaje"] = "Usuario editado correctamente.";
+                return RedirectToAction(nameof(Index));
+            }
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Eliminar(int id)
+        {
+            await _usuarioService.EliminarUsuarioAsync(id);
+            TempData["Mensaje"] = "Usuario eliminado correctamente.";
+            return RedirectToAction(nameof(Index));
+        }
+    }
+}

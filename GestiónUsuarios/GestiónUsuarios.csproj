@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestiónUsuarios.Core\GestiónUsuarios.Core.csproj" />
+    <ProjectReference Include="..\GestiónUsuarios.Data\GestiónUsuarios.Data.csproj" />
+    <ProjectReference Include="..\GestiónUsuarios.Services\GestiónUsuarios.Services.csproj" />
+  </ItemGroup>
+
+</Project>

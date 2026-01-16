@@ -1,0 +1,16 @@
+E:\Proyectos\Atica\GestiónUsuarios.Data\bin\Debug\net8.0\GestiónUsuarios.Data.deps.json
+E:\Proyectos\Atica\GestiónUsuarios.Data\bin\Debug\net8.0\GestiónUsuarios.Data.dll
+E:\Proyectos\Atica\GestiónUsuarios.Data\bin\Debug\net8.0\GestiónUsuarios.Data.pdb
+E:\Proyectos\Atica\GestiónUsuarios.Data\bin\Debug\net8.0\GestiónUsuarios.Core.dll
+E:\Proyectos\Atica\GestiónUsuarios.Data\bin\Debug\net8.0\GestiónUsuarios.Core.pdb
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.csproj.AssemblyReference.cache
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.AssemblyInfoInputs.cache
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.AssemblyInfo.cs
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.csproj.CoreCompileInputs.cache
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.sourcelink.json
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\Gesti_nU.21B0D52C.Up2Date
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.dll
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\refint\GestiónUsuarios.Data.dll
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\GestiónUsuarios.Data.pdb
+E:\Proyectos\Atica\GestiónUsuarios.Data\obj\Debug\net8.0\ref\GestiónUsuarios.Data.dll
