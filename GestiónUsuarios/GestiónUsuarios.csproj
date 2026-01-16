@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GestiónUsuarios.Core\GestiónUsuarios.Core.csproj" />
-    <ProjectReference Include="..\GestiónUsuarios.Data\GestiónUsuarios.Data.csproj" />
     <ProjectReference Include="..\GestiónUsuarios.Services\GestiónUsuarios.Services.csproj" />
   </ItemGroup>
 

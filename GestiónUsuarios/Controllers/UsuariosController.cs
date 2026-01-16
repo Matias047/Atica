@@ -8,15 +8,16 @@ namespace GestiónUsuarios.Controllers
     public class UsuariosController : Controller
     {
         private readonly IUsuarioService _usuarioService;
+        private readonly string _rolSimulado = "Administrador"; // Administrador - Usuario
 
         public UsuariosController(IUsuarioService usuarioService)
         {
             _usuarioService = usuarioService;
         }
 
-        public async Task<IActionResult> Index(string rolSimulado = "Administrador")
+        public async Task<IActionResult> Index()
         {
-            var usuarios = await _usuarioService.ObtenerUsuariosSegunRolAsync(rolSimulado);
+            var usuarios = await _usuarioService.ObtenerUsuariosSegunRolAsync(_rolSimulado);
 
             var modelo = usuarios.Select(u => new UsuarioViewModels
             {
@@ -28,12 +29,14 @@ namespace GestiónUsuarios.Controllers
                 Rol = u.Rol
             });
 
-            ViewBag.RolActual = rolSimulado;
+            ViewBag.RolActual = _rolSimulado;
             return View(modelo);
         }
 
         public IActionResult Create()
         {
+            ViewBag.RolActual = _rolSimulado;
+
             return View("Crear");
         }
 
@@ -41,6 +44,7 @@ namespace GestiónUsuarios.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Crear(UsuarioViewModels model)
         {
+
             if (ModelState.IsValid)
             {
                 var usuario = new Usuario
@@ -56,6 +60,7 @@ namespace GestiónUsuarios.Controllers
                 TempData["Mensaje"] = "Usuario guardado correctamente.";
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.RolActual = _rolSimulado;
 
             return View(model);
         }
@@ -100,6 +105,7 @@ namespace GestiónUsuarios.Controllers
                 TempData["Mensaje"] = "Usuario editado correctamente.";
                 return RedirectToAction(nameof(Index));
             }
+
             return View(model);
         }
 

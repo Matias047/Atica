@@ -56,8 +56,8 @@ E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Core.dll
 E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Data.dll
 E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Services.dll
 E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Core.pdb
-E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Data.pdb
 E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Services.pdb
+E:\Proyectos\Atica\GestiónUsuarios\bin\Debug\net8.0\GestiónUsuarios.Data.pdb
 E:\Proyectos\Atica\GestiónUsuarios\obj\Debug\net8.0\GestiónUsuarios.csproj.AssemblyReference.cache
 E:\Proyectos\Atica\GestiónUsuarios\obj\Debug\net8.0\rpswa.dswa.cache.json
 E:\Proyectos\Atica\GestiónUsuarios\obj\Debug\net8.0\GestiónUsuarios.GeneratedMSBuildEditorConfig.editorconfig

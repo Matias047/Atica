@@ -3,43 +3,26 @@
   "WorkspaceRootPath": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\usuarios\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\models\\usuarioviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:models\\usuarioviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DCB2942-C614-4DDD-A4C1-06E240A3C420}|Gesti\u00F3nUsuarios.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D562FABC-EED1-475E-A3A4-494A6A3BEDAF}|..\\Gesti\u00F3nUsuarios.Tests\\Gesti\u00F3nUsuarios.Tests.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.tests\\usuarioservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC4E9708-81E5-4787-A4B1-6DC27241DE8A}|..\\Gesti\u00F3nUsuarios.Services\\Gesti\u00F3nUsuarios.Services.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD87F00-92D6-465A-BFD8-5AEF7EE76D41}|..\\Gesti\u00F3nUsuarios.Data\\Gesti\u00F3nUsuarios.Data.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.data\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E70EFD-44D0-4B12-8911-6B67CAFB4B50}|..\\Gesti\u00F3nUsuarios.Core\\Gesti\u00F3nUsuarios.Core.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.core\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E70EFD-44D0-4B12-8911-6B67CAFB4B50}|..\\Gesti\u00F3nUsuarios.Core\\Gesti\u00F3nUsuarios.Core.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.core\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03E70EFD-44D0-4B12-8911-6B67CAFB4B50}|..\\Gesti\u00F3nUsuarios.Core\\Gesti\u00F3nUsuarios.Core.csproj|e:\\proyectos\\atica\\gesti\u00F3nusuarios.core\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,8 +32,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Editar.cshtml",
+              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Editar.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T14:19:40.147Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -65,146 +61,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Editar.cshtml",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Editar.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Editar.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T04:02:04.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioViewModels.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Models\\UsuarioViewModels.cs",
-              "RelativeDocumentMoniker": "Models\\UsuarioViewModels.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Models\\UsuarioViewModels.cs",
-              "RelativeToolTip": "Models\\UsuarioViewModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:50:27.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Crear.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Crear.cshtml",
               "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Crear.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\Crear.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T03:49:01.901Z",
+              "WhenOpened": "2026-01-16T14:11:29.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T03:32:48.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
               "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Views\\Usuarios\\Index.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAqwMYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T02:28:47.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Data\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Data\\UsuarioRepository.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Data\\UsuarioRepository.cs",
-              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Data\\UsuarioRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAvwCQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:39:53.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
-              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:40:00.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:39:46.558Z",
+              "WhenOpened": "2026-01-16T14:08:47.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
+              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
+              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T04:39:20.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAEwEsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:38:17.492Z",
+              "WhenOpened": "2026-01-16T04:37:46.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Core\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UsuarioServiceTests.cs",
+              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Tests\\UsuarioServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Tests\\UsuarioServiceTests.cs",
+              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Tests\\UsuarioServiceTests.cs",
+              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Tests\\UsuarioServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:39:38.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\Gesti\u00F3nUsuarios.Core\\Entities\\Usuario.cs",
-              "ToolTip": "E:\\Proyectos\\Atica\\Gesti\u00F3nUsuarios.Core\\Entities\\Usuario.cs",
-              "RelativeToolTip": "..\\Gesti\u00F3nUsuarios.Core\\Entities\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T03:39:12.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T04:26:59.242Z"
             }
           ]
         }

@@ -1535,7 +1535,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "GestiónUsuarios.Core >= 1.0.0",
-      "GestiónUsuarios.Data >= 1.0.0",
       "GestiónUsuarios.Services >= 1.0.0"
     ]
   },
@@ -1573,9 +1572,6 @@
           "projectReferences": {
             "E:\\Proyectos\\Atica\\GestiónUsuarios.Core\\GestiónUsuarios.Core.csproj": {
               "projectPath": "E:\\Proyectos\\Atica\\GestiónUsuarios.Core\\GestiónUsuarios.Core.csproj"
-            },
-            "E:\\Proyectos\\Atica\\GestiónUsuarios.Data\\GestiónUsuarios.Data.csproj": {
-              "projectPath": "E:\\Proyectos\\Atica\\GestiónUsuarios.Data\\GestiónUsuarios.Data.csproj"
             },
             "E:\\Proyectos\\Atica\\GestiónUsuarios.Services\\GestiónUsuarios.Services.csproj": {
               "projectPath": "E:\\Proyectos\\Atica\\GestiónUsuarios.Services\\GestiónUsuarios.Services.csproj"

@@ -9,7 +9,6 @@
       "GestiónUsuarios/1.0.0": {
         "dependencies": {
           "GestiónUsuarios.Core": "1.0.0",
-          "GestiónUsuarios.Data": "1.0.0",
           "GestiónUsuarios.Services": "1.0.0"
         },
         "runtime": {
