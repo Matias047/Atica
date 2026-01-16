@@ -7,7 +7,6 @@ namespace GestiónUsuarios.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio")]
-        [Display(Name = "Nombre del Usuario")]
         [StringLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres.")]
         public string Nombre { get; set; } = string.Empty;
 

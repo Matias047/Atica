@@ -65,7 +65,17 @@ namespace GestiónUsuarios.Controllers
             var usuario = await _usuarioService.ObtenerPorIdAsync(id);
             if (usuario == null) return NotFound();
 
-            return View(usuario);
+            var model = new UsuarioViewModels
+            {
+                Id = usuario.Id,
+                Nombre = usuario.Nombre,
+                Apellido = usuario.Apellido,
+                Documento = usuario.Documento,
+                Email = usuario.Email,
+                Rol = usuario.Rol
+            };
+
+            return View(model);
         }
 
         [HttpPost]
